@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in Trimm Studio did not work the way you expected
+title: "[Beta] "
+labels: ["bug", "beta"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing the beta. Please **do not** post API keys, passwords or private videos.
+        In the app, **Report a bug** fills most of this in for you.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Say what went wrong, in your own words.
+      placeholder: "Render stops at 40% and the job says failed."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do, and what did you expect?
+      description: The steps help us repeat it. Say what kind of video it was (stream, gameplay, podcast) and roughly how long.
+  - type: input
+    id: version
+    attributes:
+      label: Trimm version
+      description: Shown in Settings, then Diagnostics.
+      placeholder: "0.1.0 (beta)"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Your computer
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics summary (optional)
+      description: In the app, turn on "Include a diagnostics summary" to see exactly what it contains. It has no keys or video names.
+      render: text

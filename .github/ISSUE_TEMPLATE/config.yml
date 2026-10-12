@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Terms and privacy
+    url: https://github.com/agent9ether/Trimm-Studio/blob/main/TERMS.md
+    about: What you can do with Trimm Studio, and what it does with your data.

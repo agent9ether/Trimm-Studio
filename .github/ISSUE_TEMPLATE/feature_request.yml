@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest something that would make Trimm Studio better for you
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the job you want to get done, not just the feature.
+      placeholder: "I clip 3-hour streams and want to skip the intro automatically."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How would you like it to work?
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of videos do you make?
+      multiple: true
+      options:
+        - Gameplay
+        - Streams
+        - Podcasts or interviews
+        - Tutorials
+        - Something else
