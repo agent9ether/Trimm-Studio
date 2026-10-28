@@ -9,11 +9,19 @@
 Trimm finds the best moments, adds captions, reframes for vertical, writes an optional AI voice-over for your game
 clips, and gets everything ready to publish. Your footage is never uploaded anywhere unless you choose a cloud AI.
 
-**[Download the latest version](../../releases/latest)**
+**[Download the latest version](../../releases)**
+
+## Screenshots
+
+![Trimm Studio home: paste a video link or upload a file, with your projects and engine status below](docs/screenshots/home.png)
+
+![The studio editor: a vertical clip with captions, a timeline and clip settings](docs/screenshots/editor.png)
+
+![AI Providers and Models: connect your own AI accounts, with a local-only mode](docs/screenshots/ai-models.png)
 
 ## Install (Windows 10 or 11, 64-bit)
 
-1. Download **`Trimm Studio_…_x64-setup.exe`** from the [latest release](../../releases/latest), or the portable
+1. Download **`Trimm Studio_…_x64-setup.exe`** from the [latest release](../../releases), or the portable
    **`Trimm-Studio-portable-x64.zip`** (unzip it anywhere and run `Trimm Studio.exe`; everything stays in one folder).
 2. Install **FFmpeg**, which Trimm uses to read and render video. Open PowerShell and run:
 
