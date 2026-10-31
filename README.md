@@ -31,6 +31,16 @@ clips, and gets everything ready to publish. Your footage is never uploaded anyw
 
 3. Open Trimm Studio. A first-run check shows what is installed and what is missing, with a fix for each.
 
+## Install (macOS 11 or newer)
+
+1. Download **`Trimm.Studio_…_aarch64.dmg`** (Apple Silicon, M1 and later) or **`Trimm.Studio_…_x64.dmg`** (Intel) from
+   the [latest release](../../releases). Open it and drag Trimm Studio to Applications.
+2. Install **FFmpeg** with [Homebrew](https://brew.sh): `brew install ffmpeg`
+3. The Mac build isn't notarized yet, so macOS says it can't verify the developer. Right-click the app, choose **Open**,
+   then **Open** again, or run `xattr -dr com.apple.quarantine "/Applications/Trimm Studio.app"`.
+
+The Mac build is new and has had limited testing on real Macs.
+
 **Windows may warn you** ("Windows protected your PC") because the installer isn't code-signed yet. Choose **More
 info**, then **Run anyway**. To confirm your download is genuine, compare its SHA-256 with `SHA256SUMS.txt` on the
 release page:
@@ -55,7 +65,7 @@ Get-FileHash .\Trimm-Studio-portable-x64.zip -Algorithm SHA256
 
 Trimm costs nothing and has no accounts or clip limits. The AI features use **your own account** with a provider such
 as Anthropic (Claude), OpenAI, Google Gemini, Groq, NVIDIA or Mistral, or a model on your own computer (Ollama, LM
-Studio). You pay your provider directly. Your keys stay in the Windows credential store.
+Studio). You pay your provider directly. Your keys stay in the Windows credential store (macOS Keychain on Mac).
 
 Works with no AI key at all: clipping from sound and picture, captions you write or import, the editor, offline
 transcription and local voices.
@@ -78,7 +88,7 @@ to.
 
 * **Windows warning.** The installer is not code-signed yet, so Windows shows "protected your PC". See Install above.
 * **FFmpeg is separate.** Install it with the command above, or point Local Runtime at your own copy.
-* **Windows only.** A Linux build exists but has not been tested, so it is not offered yet.
+* **Windows and macOS only.** A Linux build exists but has not been tested, so it is not offered yet.
 * **Highlights without a transcript** look for loud, fast and sudden moments. A loud menu can score well, so review the picks.
 * **First offline transcription** downloads a speech model (about 145 MB) once.
 * **Browse** opens a separate browser window, not a panel inside the app.
