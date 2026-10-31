@@ -31,6 +31,14 @@ clips, and gets everything ready to publish. Your footage is never uploaded anyw
 
 3. Open Trimm Studio. A first-run check shows what is installed and what is missing, with a fix for each.
 
+**Windows may warn you** ("Windows protected your PC") because the installer isn't code-signed yet. Choose **More
+info**, then **Run anyway**. To confirm your download is genuine, compare its SHA-256 with `SHA256SUMS.txt` on the
+release page:
+
+```powershell
+Get-FileHash .\Trimm-Studio-portable-x64.zip -Algorithm SHA256
+```
+
 ## Install (macOS 11 or newer)
 
 1. Download **`Trimm.Studio_…_aarch64.dmg`** (Apple Silicon, M1 and later) or **`Trimm.Studio_…_x64.dmg`** (Intel) from
@@ -40,14 +48,6 @@ clips, and gets everything ready to publish. Your footage is never uploaded anyw
    then **Open** again, or run `xattr -dr com.apple.quarantine "/Applications/Trimm Studio.app"`.
 
 The Mac build is new and has had limited testing on real Macs.
-
-**Windows may warn you** ("Windows protected your PC") because the installer isn't code-signed yet. Choose **More
-info**, then **Run anyway**. To confirm your download is genuine, compare its SHA-256 with `SHA256SUMS.txt` on the
-release page:
-
-```powershell
-Get-FileHash .\Trimm-Studio-portable-x64.zip -Algorithm SHA256
-```
 
 ## What it does
 
