@@ -43,6 +43,19 @@ channel checks and update checks. Two things still reach the internet because th
 contacts the site that hosts the video, and publishing contacts the platform you chose. The speech model for offline
 transcription downloads once on first use, so run a first transcription before you rely on it fully offline.
 
+## TikTok
+
+If you connect TikTok, Trimm asks TikTok for your public profile (display name, avatar and account ID), your account
+totals (followers, following, likes and video count) and permission to upload videos or post for you.
+
+* It is used only to show which account is connected, to show those totals on the Analytics screen, and to send the
+  clips you choose, with the settings you choose.
+* It stays on your computer. The sign-in tokens are kept in the operating system's credential store. Trimm has no
+  server, so we never receive this data, and we do not sell it, share it or use it for advertising.
+* To disconnect, remove the connection in Trimm (this deletes the tokens from your computer) and revoke access in
+  TikTok under the app's permission settings.
+* TikTok's own terms and privacy policy apply to what you post there.
+
 ## AI providers have their own policies
 
 When you use a provider, its privacy policy and terms apply to what you send it, including how long it keeps it and
