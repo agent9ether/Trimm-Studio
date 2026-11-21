@@ -2,7 +2,7 @@
 
 **Turn long videos, streams and gameplay into clips ready to post. Free, and it runs on your computer.**
 
-> **Public beta.** Trimm Studio is new and still has rough edges. It is free to use and updated often. If something
+> Trimm Studio is free to use and updated often. If something
 > breaks, please [report a bug](../../issues/new/choose). In the app, **Report a bug** (bottom of the left menu)
 > fills in the report for you. Nothing is sent until you press Submit on GitHub.
 
@@ -84,7 +84,7 @@ Full agreement: [LICENSE](LICENSE). Open-source components Trimm includes, with 
 Only process videos you own or have permission to use, and follow the rules of the sites you download from and post
 to.
 
-## Known issues in this beta
+## Known issues
 
 * **Windows warning.** The installer is not code-signed yet, so Windows shows "protected your PC". See Install above.
 * **FFmpeg is separate.** Install it with the command above, or point Local Runtime at your own copy.

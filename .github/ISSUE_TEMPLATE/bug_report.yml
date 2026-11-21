@@ -1,12 +1,12 @@
 name: Bug report
 description: Something in Trimm Studio did not work the way you expected
-title: "[Beta] "
-labels: ["bug", "beta"]
+title: "[Bug] "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing the beta. Please **do not** post API keys, passwords or private videos.
+        Thanks for reporting a bug. Please **do not** post API keys, passwords or private videos.
         In the app, **Report a bug** fills most of this in for you.
   - type: textarea
     id: what
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Trimm version
       description: Shown in Settings, then Diagnostics.
-      placeholder: "0.3.2 (beta)"
+      placeholder: "0.3.3"
     validations:
       required: true
   - type: dropdown
